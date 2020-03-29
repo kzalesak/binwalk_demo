@@ -5,7 +5,7 @@ data = generate_data(5000);
 data_mean = mean(data);
 
 figure(1)
-plot(data,"b-.")
+plot(data,"b-")
 xlabel("Datapoints")
 ylabel("Generated values")
 title(sprintf("Plot of generated values. Mean: %d",data_mean))
