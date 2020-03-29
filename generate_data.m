@@ -1,2 +1,5 @@
-data = random('norm',0,1,500,1);
-save data/my_dataset data;
+function generated_data = generateData(data_size)
+
+data = random('norm',0,1,data_size,1);
+
+generated_data = data;
