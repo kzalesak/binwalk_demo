@@ -16,4 +16,4 @@ mean_vec = ones(size(data)) * data_mean;
 plot(mean_vec)
 hold off
 
-disp(sprintf("The mean of the normal distribution is, rounded to one sigfig is: %d",round(data_mean,1)))
+disp(sprintf("The mean of the normal distribution, rounded to one sigfig is: %d",round(data_mean,1)))
