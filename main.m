@@ -1,7 +1,7 @@
 % GENERATE A DATASET, PLOT IT AND DISPLAY ITS MEAN
 
 % loaded = load('data/my_dataset');
-data = generate_data(1500);
+data = generate_data(5000);
 data_mean = mean(data);
 
 figure(1)
